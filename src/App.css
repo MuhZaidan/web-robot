@@ -44,6 +44,7 @@ html,
   border: 2px solid #fdfdfd;
   min-width: 10em;
   min-height: 10em;
+  border-radius: 15px;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -62,6 +63,7 @@ html,
   height: 3em;
   background-color: #2f2c2c;
   color: #f1f1f1;
+  font-weight: 700;
   border: 2px solid #f1f1f1;
   border-radius: 0 0 15px 15px;
   transition: all ease-in-out 0.3s;
