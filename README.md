@@ -14,5 +14,6 @@ npm install
 
 ## Preview Website:
 
-![phone_preview](</_preview/Screenshot 2025-03-05 185819.png>)
-![desktop_preview](</_preview/Screenshot 2025-03-05 185751.png>)
+Phone Preview Landing Page:
+![phone_preview](</_preview/Screenshot 2025-03-05 185819.png>) Desktop Preview
+Landing Page: ![desktop_preview](</_preview/Screenshot 2025-03-05 185751.png>)
