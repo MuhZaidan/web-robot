@@ -14,6 +14,9 @@ npm install
 
 ## Preview Website:
 
-Phone Preview Landing Page:
-![phone_preview](</_preview/Screenshot 2025-03-05 185819.png>) Desktop Preview
-Landing Page: ![desktop_preview](</_preview/Screenshot 2025-03-05 185751.png>)
+![phone_preview](</_preview/Screenshot 2025-03-05 185819.png>)
+![desktop_preview](</_preview/Screenshot 2025-03-05 185751.png>)
+
+## Free Access Website:
+
+click [here](https://google.com) for check the free access
