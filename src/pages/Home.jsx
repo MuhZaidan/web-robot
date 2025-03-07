@@ -1,7 +1,8 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faRobot } from '@fortawesome/free-solid-svg-icons';
-import HeaderTitle from '../components/HeaderTitle';
-import Navigation from '../components/Navigation';
+// import HeaderTitle from '../components/HeaderTitle';
+// import Navigation from '../components/Navigation';
+import Layout from '../components/Layout';
 import Popup from '../components/Popup';
 import { useState } from 'react';
 
@@ -14,8 +15,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="App">
-        <HeaderTitle></HeaderTitle>
+      <Layout>
         <Popup toggle={popup} fx={setPopup} />
         <section className="Robot-menu">
           <div className="robot">
@@ -47,8 +47,7 @@ const Home = () => {
             <button>Use This Robot</button>
           </div>
         </section>
-        <Navigation />
-      </div>
+      </Layout>
     </>
   );
 };
