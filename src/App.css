@@ -123,10 +123,24 @@ html,
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 40rem;
-  height: 40em;
+  width: 30rem;
+  height: 15em;
   border-radius: 20px;
   padding: 16px;
+  gap: 20px;
+}
+
+.Popup .container .data {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-direction: column;
+  width: 100%;
+  height: 15em;
+}
+
+.Popup .container .data .android {
+  display: none;
 }
 
 .Popup .container h1 {
@@ -166,7 +180,7 @@ html,
   scale: 110%;
 }
 
-.Article {
+.Popup .container .Article {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   width: 100dvw;
@@ -226,6 +240,14 @@ html,
     width: 20rem;
     height: 20em;
     opacity: 100%;
+  }
+
+  .Popup .container .data .android {
+    display: block;
+  }
+
+  .Popup .container .data .desktop {
+    display: none;
   }
 
   .Title {
