@@ -166,6 +166,51 @@ html,
   scale: 110%;
 }
 
+.Article {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  width: 100dvw;
+  height: 100dvh;
+  color: #f1f1f1;
+  gap: 200px;
+}
+
+.Article .details {
+  padding-left: 90px;
+  padding-top: 10px;
+  width: 50vw;
+}
+
+.Article .details .title {
+  font-size: x-large;
+  font-weight: 900;
+  text-decoration: underline;
+  padding-bottom: 20px;
+}
+
+.Article .details .subheader {
+  font-size: larger;
+  font-weight: 700;
+  padding-bottom: 5px;
+}
+
+.Article .details article,
+.Article .details ul {
+  text-align: justify;
+  font-size: medium;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.Article .details ul {
+  padding-left: 10px;
+  list-style: circle;
+}
+
+.Article .logo img {
+  padding: 20px;
+}
+
 @media only screen and (max-width: 600px) {
   .Robot-menu .robot button {
     width: 8em;
@@ -181,5 +226,48 @@ html,
     width: 20rem;
     height: 20em;
     opacity: 100%;
+  }
+
+  .Title {
+    background-color: #fdfdfd;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+  }
+
+  .Title h1 {
+    font-size: larger;
+  }
+
+  .Article .details {
+    padding-left: 20px;
+    padding-top: 10px;
+    width: 95vw;
+  }
+
+  .Article .details .title {
+    font-size: larger;
+    font-weight: 900;
+    text-decoration: underline;
+    padding-bottom: 10px;
+    width: 90vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Article .details .subheader {
+    font-size: medium;
+  }
+
+  .Article .details article,
+  .Article .details ul {
+    font-size: smaller;
+  }
+
+  .Article .logo img {
+    display: none;
   }
 }
