@@ -41,7 +41,12 @@ const Listrik = () => {
           </ul>
         </div>
         <div className="logo">
-          <img src="./images/toi.png" alt="Teknik Otomasi Industri" />
+          <img
+            src="./images/toi.png"
+            alt="Teknik Otomasi Industri"
+            width={500}
+            height={600}
+          />
         </div>
       </div>
     </Layout>
