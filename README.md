@@ -19,4 +19,4 @@ npm install
 
 ## Free Access Website:
 
-click [here](https://trailo.netlify.app) for check the free access
+click [here](https://trailo.vercel.app) for check the free access
